@@ -1,68 +1,90 @@
 a {
-  color: inherit;
-  text-decoration: inherit;
+    color: inherit;
+    text-decoration: inherit;
 }
+
 
 /* Pseudo classes for links */
 
-a:link { color: silver; }
-a:visited { color: darkgrey; }
-a:hover { color: darkblue; } 
-a:active { color: lightgreen; }
+a:link {
+    color: silver;
+}
+
+a:visited {
+    color: darkgrey;
+}
+
+a:hover {
+    color: darkblue;
+}
+
+a:active {
+    color: lightgreen;
+}
+
 
 /* General styling for the HTML body */
+
 body {
-  text-align: center;
-  font-family: 'Colaborate-Thin-PL', sans-serif;
-  background: #7FB685;
-  margin: 0%;
-  font-weight: 600;
-  color: rgb(63, 63, 63);
-  font-size: 25px;
+    text-align: center;
+    font-family: 'Colaborate-Thin-PL', sans-serif;
+    background: #7FB685;
+    margin: 0%;
+    font-weight: 600;
+    color: rgb(63, 63, 63);
+    font-size: 25px;
 }
+
 
 /* Styling for the title header  */
+
 h1 {
- font-family: 'Seven Day Signature', sans-serif;
- font-size: 80px;
- text-align: center;
- color: #EF6F6C;
- margin-bottom: 10px;
- margin-top: 25px;
+    font-family: 'Seven Day Signature', sans-serif;
+    font-size: 80px;
+    text-align: center;
+    color: #EF6F6C;
+    margin-bottom: 10px;
+    margin-top: 25px;
 }
+
 
 /* Styling for the header and footer */
-header, footer {
-  background-color: #426A5A;
-  padding-top: 10px;
-  padding-bottom: 25px;
-  color: rgb(194, 194, 194);
-  font-weight: 550;
-  font-size: 20px;
+
+header,
+footer {
+    background-color: #426A5A;
+    padding: 10px auto 25px auto;
+    color: rgb(194, 194, 194);
+    font-weight: 550;
+    font-size: 20px;
 }
 
+
 /* Styling for the sections */
-section  {
-  width: 400px;
-  text-align: left;
-  margin-left: auto;
-  margin-right: auto;
+
+section {
+    width: 400px;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
 }
+
 
 /* Styling for horizontal lines */
 
 hr {
-  border-top: 1px solid rgb(80, 80, 80);
-  border-bottom: 0px;
-  width: 50%;
-  height: 1px;
-  margin-top: 50px;
-  margin-bottom: 50px;
+    border-top: 1px solid rgb(80, 80, 80);
+    border-bottom: 0px;
+    width: 50%;
+    height: 1px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
+
 
 /* Give images round corners and space from the top */
 
 img {
-  margin-top: 80px;
-  border-radius: 50%;
+    margin-top: 80px;
+    border-radius: 50%;
 }
