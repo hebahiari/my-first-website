@@ -53,7 +53,7 @@ h1 {
 header,
 footer {
     background-color: #426A5A;
-    padding: 10px auto 25px auto;
+    padding: 10px 0 25px 0;
     color: rgb(194, 194, 194);
     font-weight: 550;
     font-size: 20px;
